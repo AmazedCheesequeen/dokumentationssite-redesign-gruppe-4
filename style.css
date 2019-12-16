@@ -102,14 +102,14 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
     font-size: 1.8vw;
     font-weight: 550
 }
 
 p {
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
     font-size: 1.5vw;
 }
@@ -124,13 +124,13 @@ footer {
 }
 
 ul {
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
     font-size: 1.5vw;
 }
 
 li {
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
     font-size: 1.5vw;
 }
@@ -140,7 +140,7 @@ li {
 }
 
 a {
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
     font-size: 1.5vw;
 }
