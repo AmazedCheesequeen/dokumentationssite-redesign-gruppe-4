@@ -177,3 +177,23 @@ a {
 
 
 /* ***************billeder style************* */
+
+#inspiration1 img {
+    height: 29vw;
+    width: 50vw;
+    background-size: cover;
+}
+
+
+#inspiration2 img {
+    height: 29vw;
+    width: 50vw;
+    background-size: cover;
+}
+
+
+#inspiration3 img {
+    height: 20vw;
+    width: 50vw;
+    background-size: cover;
+}
