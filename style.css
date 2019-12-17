@@ -223,6 +223,12 @@ a {
 }
 
 
+#logo img {
+    height: 28vw;
+    width: 30vw;
+    background-size: cover;
+}
+
 
 #fotostil img {
     height: 30vw;
