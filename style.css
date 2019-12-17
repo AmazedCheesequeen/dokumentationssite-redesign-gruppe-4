@@ -22,7 +22,7 @@ nav {
 nav a {
 
     float: left;
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-family: 'Tenor Sans', sans-serif;
     text-transform: uppercase;
     color: white;
@@ -34,7 +34,7 @@ nav a {
 }
 
 .dropdown {
-    float: right;
+    float: left;
     overflow: hidden;
     padding: 0.5vw;
 }
@@ -62,12 +62,13 @@ nav a {
 .dropdown_content {
     display: none;
     position: absolute;
-    right: 0vw;
+    left: 0vw;
     top: 4.2vw;
     background-color: white;
     width: 25vw;
     box-shadow: 0vw 0.4vw 1vw 0vw rgba(0, 0, 0, 0.2);
     z-index: 1;
+
 }
 
 .dropdown_content a {
