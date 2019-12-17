@@ -271,3 +271,17 @@ footer {
 
 
 }
+
+#video {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+#video_content {
+    position: relative;
+}
+
+video {
+    width: 100%;
+}
