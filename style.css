@@ -194,6 +194,13 @@ a {
 }
 
 
+#skitse img {
+    height: 55vw;
+    width: 40vw;
+    background-size: cover;
+}
+
+
 #inspiration3 img {
     height: 20vw;
     width: 50vw;
