@@ -259,3 +259,14 @@ footer {
     width: 45vw;
     background-size: cover;
 }
+
+
+
+#moodboard img {
+    height: 50vw;
+    width: 70vw;
+    background-size: cover;
+    margin-left: 10vw;
+
+
+}
