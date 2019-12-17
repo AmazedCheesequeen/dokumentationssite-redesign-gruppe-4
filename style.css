@@ -194,6 +194,13 @@ a {
 }
 
 
+#inspiration3 img {
+    height: 20vw;
+    width: 50vw;
+    background-size: cover;
+}
+
+
 #skitse img {
     height: 55vw;
     width: 40vw;
@@ -201,11 +208,20 @@ a {
 }
 
 
-#inspiration3 img {
-    height: 20vw;
-    width: 50vw;
+
+#knap1 img {
+    height: 5vw;
+    width: 18vw;
     background-size: cover;
 }
+
+
+#knap2 img {
+    height: 5vw;
+    width: 18vw;
+    background-size: cover;
+}
+
 
 
 #fotostil img {
