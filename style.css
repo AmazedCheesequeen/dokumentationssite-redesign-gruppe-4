@@ -23,12 +23,14 @@ nav a {
 
     float: left;
     font-size: 1.4rem;
-    font-family: sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
+    text-transform: uppercase;
     color: white;
     text-align: center;
     padding: 1vw;
     text-decoration: none;
     margin: 0;
+
 }
 
 .dropdown {
@@ -51,7 +53,7 @@ nav a {
 
 .dropdown:hover .drop_button {
     background-color: white;
-    color: gold;
+    color: #aa9f92;
 
 
 }
@@ -71,15 +73,17 @@ nav a {
 .dropdown_content a {
     float: none;
     font-size: 1rem;
-    color: black;
+    color: #3e362f;
     padding: 1vw 1.2vw;
     text-decoration: none;
     display: block;
     text-align: left;
+    font-family: 'Tenor Sans', sans-serif;
+    text-transform: none;
 }
 
 .dropdown_content a:hover {
-    color: gold;
+    color: #aa9f92;
 }
 
 .dropdown:hover .dropdown_content {
@@ -95,23 +99,32 @@ section {
     padding: 1vw;
 }
 
+
+/******************** Style Tekst ******************/
+
+
 h1 {
     text-align: left;
-    font-family: sans-serif;
-    font-size: 3vw;
+    font-size: 4vw;
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: bold;
+    color: #3e362f;
 }
 
 h2 {
     text-align: left;
-    font-family: sans-serif;
-    font-size: 1.8vw;
-    font-weight: 550
+    font-size: 2.3vw;
+    font-weight: 550;
+    font-family: 'EB Garamond', serif;
+    font-style: bold;
+    color: #3e362f;
 }
 
 p {
     text-align: left;
-    font-family: sans-serif;
     font-size: 1.5vw;
+    font-family: 'EB Garamond', serif;
+    color: #3e362f;
 }
 
 footer {
@@ -126,13 +139,13 @@ footer {
 ul {
 
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'EB Garamond', serif;
     font-size: 1.5vw;
 }
 
 li {
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'EB Garamond', serif;
     font-size: 1.5vw;
 }
 
@@ -144,6 +157,17 @@ a {
     text-align: left;
     font-family: sans-serif;
     font-size: 1.5vw;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #776f64;
+}
+
+a:hover {
+    color: #aa9f92;
+}
+
+footer {
+    font-family: 'EB Garamond', serif;
+    color: #625a50;
 }
 
 
