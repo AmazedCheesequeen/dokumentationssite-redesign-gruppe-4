@@ -199,3 +199,10 @@ a {
     width: 50vw;
     background-size: cover;
 }
+
+
+#fotostil img {
+    height: 30vw;
+    width: 45vw;
+    background-size: cover;
+}
