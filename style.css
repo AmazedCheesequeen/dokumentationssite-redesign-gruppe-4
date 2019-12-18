@@ -264,6 +264,12 @@ footer {
     background-size: cover;
 }
 
+#fotostil_red img {
+    height: 30vw;
+    width: 30vw;
+    background-size: cover;
+}
+
 #fotostil_styletile img {
     height: 30vw;
     width: 45vw;
