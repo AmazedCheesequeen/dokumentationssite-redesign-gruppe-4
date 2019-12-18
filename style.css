@@ -264,6 +264,13 @@ footer {
     background-size: cover;
 }
 
+#fotostil_styletile img {
+    height: 30vw;
+    width: 45vw;
+    background-size: cover;
+}
+
+
 
 
 #moodboard img {
