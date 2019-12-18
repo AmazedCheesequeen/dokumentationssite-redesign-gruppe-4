@@ -321,3 +321,15 @@ video {
     background-image: cover;
     padding: 1vw;
 }
+
+
+/***lighthouse billeder***/
+#lighthouse_billede_mobil img {
+    height: 30vw;
+    width: 54vw;
+}
+
+#lighthouse_billede_web img {
+    height: 30vw;
+    width: 54vw;
+}
