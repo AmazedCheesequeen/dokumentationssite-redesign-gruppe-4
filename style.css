@@ -110,16 +110,13 @@ h1 {
     text-align: left;
     font-size: 4vw;
     font-family: 'Tenor Sans', sans-serif;
-    font-style: bold;
     color: #3e362f;
 }
 
 h2 {
     text-align: left;
     font-size: 2.3vw;
-    font-weight: 550;
     font-family: 'EB Garamond', serif;
-    font-style: bold;
     color: #3e362f;
 }
 
@@ -314,7 +311,6 @@ video {
 
 #fotostil img {
     scroll-snap-align: center;
-    background-image: cover;
     padding: 1vw;
 }
 
@@ -329,7 +325,6 @@ video {
 
 #fotostil_red img {
     scroll-snap-align: center;
-    background-image: cover;
     padding: 1vw;
 }
 
