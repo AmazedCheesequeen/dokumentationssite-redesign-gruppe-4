@@ -100,6 +100,8 @@ section {
     padding: 1vw;
 }
 
+/********VIDEO*******/
+
 
 /******************** Style Tekst ******************/
 
@@ -262,6 +264,19 @@ footer {
     background-size: cover;
 }
 
+#fotostil_red img {
+    height: 30vw;
+    width: 30vw;
+    background-size: cover;
+}
+
+#fotostil_styletile img {
+    height: 30vw;
+    width: 45vw;
+    background-size: cover;
+}
+
+
 
 
 #moodboard img {
@@ -281,6 +296,7 @@ footer {
 
 #video_content {
     position: relative;
+    background-size: cover;
 }
 
 video {
@@ -315,4 +331,22 @@ video {
     scroll-snap-align: center;
     background-image: cover;
     padding: 1vw;
+}
+
+
+/***lighthouse billeder***/
+#lighthouse_billede_mobil img {
+    height: 30vw;
+    width: 54vw;
+}
+
+#lighthouse_billede_web img {
+    height: 30vw;
+    width: 54vw;
+}
+
+
+#video_content_fb {
+    height: 25vw;
+    width: 25vw;
 }
