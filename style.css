@@ -100,6 +100,11 @@ section {
     padding: 1vw;
 }
 
+/********VIDEO*******/
+#video_content {
+    height: 25vw;
+    width: 25vw;
+}
 
 /******************** Style Tekst ******************/
 
