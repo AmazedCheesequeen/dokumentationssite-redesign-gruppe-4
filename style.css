@@ -22,7 +22,7 @@ nav {
 nav a {
 
     float: left;
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-family: 'Tenor Sans', sans-serif;
     text-transform: uppercase;
     color: white;
@@ -34,7 +34,7 @@ nav a {
 }
 
 .dropdown {
-    float: right;
+    float: left;
     overflow: hidden;
     padding: 0.5vw;
 }
@@ -62,12 +62,13 @@ nav a {
 .dropdown_content {
     display: none;
     position: absolute;
-    right: 0vw;
+    left: 0vw;
     top: 4.2vw;
     background-color: white;
     width: 25vw;
     box-shadow: 0vw 0.4vw 1vw 0vw rgba(0, 0, 0, 0.2);
     z-index: 1;
+
 }
 
 .dropdown_content a {
@@ -99,6 +100,8 @@ section {
     padding: 1vw;
 }
 
+/********VIDEO*******/
+
 
 /******************** Style Tekst ******************/
 
@@ -107,16 +110,13 @@ h1 {
     text-align: left;
     font-size: 4vw;
     font-family: 'Tenor Sans', sans-serif;
-    font-style: bold;
     color: #3e362f;
 }
 
 h2 {
     text-align: left;
     font-size: 2.3vw;
-    font-weight: 550;
     font-family: 'EB Garamond', serif;
-    font-style: bold;
     color: #3e362f;
 }
 
@@ -261,6 +261,19 @@ footer {
     background-size: cover;
 }
 
+#fotostil_red img {
+    height: 30vw;
+    width: 30vw;
+    background-size: cover;
+}
+
+#fotostil_styletile img {
+    height: 30vw;
+    width: 45vw;
+    background-size: cover;
+}
+
+
 
 
 #moodboard img {
@@ -270,4 +283,65 @@ footer {
     margin-left: 10vw;
 
 
+}
+
+#video {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+#video_content {
+    position: relative;
+    background-size: cover;
+}
+
+video {
+    width: 100%;
+}
+
+
+#fotostil {
+    display: flex;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: flex;
+}
+
+#fotostil img {
+    scroll-snap-align: center;
+    padding: 1vw;
+}
+
+
+#fotostil_red {
+    display: flex;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: flex;
+}
+
+#fotostil_red img {
+    scroll-snap-align: center;
+    padding: 1vw;
+}
+
+
+/***lighthouse billeder***/
+#lighthouse_billede_mobil img {
+    height: 30vw;
+    width: 54vw;
+}
+
+#lighthouse_billede_web img {
+    height: 30vw;
+    width: 54vw;
+}
+
+
+#video_content_fb {
+    height: 25vw;
+    width: 25vw;
 }
